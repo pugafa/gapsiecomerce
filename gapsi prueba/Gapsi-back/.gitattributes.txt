@@ -1,0 +1,12 @@
+# Para archivos de texto, usa LF en el repositorio y la terminación de línea nativa en el checkout
+* text=auto
+
+# Para archivos específicos que deben usar LF
+*.sh text eol=lf
+*.java text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+
+# Para archivos específicos que deben usar CRLF (generalmente scripts de Windows)
+*.cmd text eol=crlf
+*.bat text eol=crlf

@@ -1,0 +1,121 @@
+[ {
+  "id_proveedor" : 1,
+  "nombre" : "agregado3568",
+  "razon_social" : "Proveedor Uno S.A. de C.V.",
+  "direccion" : "Calle Falsa 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 2,
+  "nombre" : "agregado2",
+  "razon_social" : "Proveedor Uno S.A. de C.V.",
+  "direccion" : "Calle Falsa 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 3,
+  "nombre" : "Nuevo Proveedor2 modify",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 4,
+  "nombre" : "Nuevo Proveedor3",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 5,
+  "nombre" : "Nuevo Proveedor4",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 6,
+  "nombre" : "Nuevo Proveedor5",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 7,
+  "nombre" : "Nuevo Proveedor6",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 8,
+  "nombre" : "Nuevo Proveedor7",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 9,
+  "nombre" : "Nuevo Proveedor8",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 10,
+  "nombre" : "Nuevo Proveedor9",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 11,
+  "nombre" : "Nuevo Proveedor10",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 12,
+  "nombre" : "Nuevo Proveedor11",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 13,
+  "nombre" : "Nuevo Proveedor12",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 14,
+  "nombre" : "Nuevo Proveedor13",
+  "razon_social" : "Proveedor Ejemplo S.A. de C.V. tqm",
+  "direccion" : "Calle Ejemplo 123, Ciudad, País",
+  "fecha_creacion" : "2024-05-26T10:00:00",
+  "usuario_creacion" : "usuario1",
+  "estatus" : "activo"
+}, {
+  "id_proveedor" : 15,
+  "nombre" : "algo",
+  "razon_social" : "algo",
+  "direccion" : "alfo",
+  "fecha_creacion" : null,
+  "usuario_creacion" : null,
+  "estatus" : null
+} ]

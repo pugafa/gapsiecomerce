@@ -1,0 +1,246 @@
+{
+	"info": {
+		"_postman_id": "42db7fad-050c-45e8-9b66-2bb63825fed6",
+		"name": "Proveedores",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35197053"
+	},
+	"item": [
+		{
+			"name": "Agregar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Nuevo Proveedor3\",\r\n    \"razon_social\": \"Proveedor Ejemplo S.A. de C.V. tqm\",\r\n    \"direccion\": \"Calle Ejemplo 123, Ciudad, País\",\r\n    \"fecha_creacion\": \"2024-05-26T10:00:00\",\r\n    \"usuario_creacion\": \"usuario1\",\r\n    \"estatus\": \"activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/proveedores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"proveedores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_proveedor\" : 3,\r\n  \"nombre\" : \"Nuevo Proveedor2 modify\",\r\n  \"razon_social\" : \"Proveedor Ejemplo S.A. de C.V. tqm\",\r\n  \"direccion\" : \"Calle Ejemplo 123, Ciudad, País\",\r\n  \"fecha_creacion\" : \"2024-05-26T10:00:00\",\r\n  \"usuario_creacion\" : \"usuario1\",\r\n  \"estatus\" : \"activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/proveedores/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"proveedores",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener todos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id_proveedor\" : 2,\r\n  \"nombre\" : \"Nuevo Proveedor modify\",\r\n  \"razon_social\" : \"Proveedor Ejemplo S.A. de C.V.\",\r\n  \"direccion\" : \"Calle Ejemplo 123, Ciudad, País\",\r\n  \"fecha_creacion\" : \"2024-05-26T10:00:00\",\r\n  \"usuario_creacion\" : \"usuario1\",\r\n  \"estatus\" : \"activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/proveedores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"proveedores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/proveedores/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"proveedores",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener uno",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/proveedores/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"proveedores",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Saludo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_habitos\": 4,\r\n    \"correo_electronico\": \"STRING\",\r\n    \"fecha_nacimiento\": \"STRING\",\r\n    \"peso\": 2.0,\r\n    \"altura\": 2.0,\r\n    \"isGestante\": 1,\r\n    \"gest_trim\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/saludo",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"saludo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paginado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/proveedores/lista?limit=5&offset=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"proveedores",
+						"lista"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "5"
+						},
+						{
+							"key": "offset",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\": \"Jorge\",\r\n    \"contrasena\": \"contrasenaSegura123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
